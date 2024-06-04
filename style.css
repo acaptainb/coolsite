@@ -1,0 +1,91 @@
+/* * {
+    outline: 1px dotted white;
+} */
+
+body {
+    background-color: #061130;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding-right: 2em;
+    font-weight: 600;
+
+}
+
+button {
+    border: 0;
+    background: unset;
+    cursor: pointer;
+}
+
+.button-purple {
+    background-color: #1c4bc4;
+    color: white;
+    border-radius: 7px;
+    padding: .25em .5em;
+}
+
+main {
+    display: flex;
+    padding-bottom: 5em;
+    padding-top: 5em;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.align-center {
+    align-items: center;
+
+}
+
+.left {
+    width: 50%;
+    margin-left: 7em;
+}
+
+.right {
+    width: 50%;
+    margin-right: 7em;
+
+}
+
+.img-fit {
+    width: 130%;
+}
+
+main p {
+    line-height: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+    padding-left: 3em;
+}
+
+.footer-box {
+    width: 20%;
+
+}
+
+.last-footer {
+    display: inline;
+}
+
+.gutters {
+    margin: 0px 75px;
+}
